@@ -6,8 +6,5 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
 
-[project.scripts]
-dev = "fastapi dev"
-
 [tool.uv.workspace]
-members = ["packages/api", "packages/cli"]
+members = ["packages/api", "packages/cli", "packages/prompt"]

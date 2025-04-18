@@ -3,3 +3,6 @@ api-dev:
 
 cli +args: 
     uv run --package cli cli {{args}}
+
+install: 
+    uv sync --all-packages
