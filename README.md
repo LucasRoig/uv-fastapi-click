@@ -26,3 +26,7 @@ just api-dev
 ```bash
 just cli --help
 ```
+
+## Ajout d'une dépendance
+
+Pour ajouter une dépendance, il faut spécifier dans quel pqackage elle doit être ajoutée. Ex: `uv add --package prompt openai`

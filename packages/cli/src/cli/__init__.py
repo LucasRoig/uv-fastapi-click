@@ -1,5 +1,5 @@
 import typer
-
+from prompt import apples as prompt_apples
 app = typer.Typer()
 
 
@@ -18,3 +18,7 @@ def goodbye(name: str, formal: bool = False):
 
 def main() -> None:
     app()
+
+@app.command()
+def apples():
+    print(prompt_apples())
